@@ -1,0 +1,67 @@
+.bod
+{
+	background-color: rgba(0,0,0,0.8); 
+}
+.nav
+{
+	background-size: contain;
+	
+	background-position: center;
+}
+.list
+{
+float: right;
+text-decoration: none;
+list-style: none;
+}
+
+.li a
+{
+
+	background-color: linear-gradient(lightblue);
+	text-decoration: none;
+    padding: 5px 5px;
+	font-family: sans-serif;
+	font-size: 150%;
+	color: black;
+	border-width: 5px;
+	border-style: solid;
+
+	border-color: rgba(0,0,0,0.3);
+}
+.li a:hover
+{
+	background-color: lightpink;
+}
+.li
+{
+
+text-decoration: none;
+display: inline-block;
+
+}
+.art
+{
+	position: relative;
+	width:100%;
+	height: 300px;
+	margin: 50px auto;
+	display: inline-block;
+
+}
+.art .a
+{
+	position: relative;
+	width: 31%;
+	align-self: center;
+	height: 230px;
+	margin: 15px;
+	float:left;
+	border-style: solid;
+	border-color: lightpink;
+}
+.art .a:hover
+{
+border-color: deeppink;
+
+}
